@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  background-color: white;
+}
+
+
+h1 {
+  margin-top: 0;
+  font-family: 'Courgette', cursive;
+  font-size: 70px;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+  padding-bottom: 35px;
+
+
+}
+
+h2 {
+font-family: 'Merriweather', serif;
+font-size: 2rem;
+color: #66BFBF;
+font-weight: normal;
+
+
+}
+
+h3 {
+font-family: 'Merriweather', serif;
+color: #11999E;
+
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  background-color: #EAF6F6;
+
+}
+
+.cloud2 {
+  position: absolute;
+  left: 15%;
+
+
+}
+
+.cloud1 {
+  position: absolute;
+  right: 15%;
+  top: 5%;
+
+}
+
+.face1 {
+  border-radius: 100%;
+  margin-top: 10%;
+}
+
+.mechanic1 {
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin-right: 30px;
+}
+
+.code1 {
+  height: 100px;
+  width: 100px;
+  float: right;
+  margin-left: 30px;
+}
+
+.aboutme1 {
+margin: 10% 0 20% 0;
+
+}
+
+.myskillh {
+margin: 10% 0 10% 0;
+
+}
+
+.email1 {
+height: 50px;
+width: 50px;
+
+}
+
+.skill-row {
+margin: 100px auto;
+width: 50%;
+line-height: 2;
+text-align: left;
+
+}
+
+.techdesc {
+  clear: left;
+}
+
+
+.codedesc {
+clear: right
+}
+
+
+hr {
+  border-style: dotted none none none;
+  width: 5%;
+  border-color: gray;
+  border-width: 5px;
+
+}
+
+.profile {
+width: 50%;
+margin: 0 auto;
+
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  padding-top: 5px;
+
+}
+
+.table1 {
+margin: 0 auto;
+
+}
+
+.copyright {
+  color: #EAF6F6;
+}
+
+.tableb {
+  padding: 20px;
+}
+
+.myButton {
+  box-shadow:inset 0 1px 0 0 #bbdaf7;
+	background:linear-gradient(to bottom, #11999e 5%, #378de5 100%);
+	background-color:#11999e;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 30px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #528ecc;
+margin: 50px 0;
+}
+
+.myButton:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #11999e 100%);
+	background-color:#378de5;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.bottomtxt {
+text-align: center;
+}
