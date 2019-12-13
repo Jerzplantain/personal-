@@ -3,15 +3,19 @@ body {
   text-align: center;
   font-family: 'Roboto Slab', serif;
   background-color: white;
+  color: #40514E;
 }
+p {
 
+  line-height: 2;
+}
 
 h1 {
   margin-top: 0;
   font-family: 'Courgette', cursive;
   font-size: 70px;
   margin: 50px auto 0 auto;
-  color: #66BFBF;
+  color: #9d0b0b;
   padding-bottom: 35px;
 
 
@@ -20,7 +24,7 @@ h1 {
 h2 {
 font-family: 'Merriweather', serif;
 font-size: 2rem;
-color: #66BFBF;
+color: #da2d2d;
 font-weight: normal;
 
 
@@ -28,14 +32,16 @@ font-weight: normal;
 
 h3 {
 font-family: 'Merriweather', serif;
-color: #11999E;
+color: #eb8242;;
 
 }
 
 .top-container {
   position: relative;
   padding-top: 100px;
-  background-color: #EAF6F6;
+  background-color: #f9f6f7;
+  border-bottom: 5px solid;;;;;;;;
+  border-color: black;
 
 }
 
@@ -43,6 +49,8 @@ color: #11999E;
   position: absolute;
   left: 15%;
 
+  width: 10%;
+  height: 10%;
 
 }
 
@@ -50,6 +58,13 @@ color: #11999E;
   position: absolute;
   right: 15%;
   top: 5%;
+  height: 25%;
+  width: 10%;
+}
+
+.mountain1 {
+width: 50%;
+height: 50%;
 
 }
 
@@ -73,8 +88,18 @@ color: #11999E;
 }
 
 .aboutme1 {
-margin: 10% 0 20% 0;
+margin: 0 auto;
+width: 50%;
+padding-bottom: 50px;
 
+}
+
+.bottomtxt{
+
+width: 450px;
+margin: 0 auto;
+padding-bottom: 50px;
+padding-top: 50px;
 }
 
 .myskillh {
@@ -90,8 +115,7 @@ width: 50px;
 
 .skill-row {
 margin: 100px auto;
-width: 50%;
-line-height: 2;
+width: 30%;
 text-align: left;
 
 }
@@ -102,8 +126,10 @@ text-align: left;
 
 
 .codedesc {
-clear: right
+clear: right;
 }
+
+
 
 
 hr {
@@ -121,12 +147,12 @@ margin: 0 auto;
 }
 
 .bottom-container {
-  background-color: #66BFBF;
+  background-color: #c72c41;
   text-align: center;
   margin-bottom: 0;
-  padding-bottom: 10px;
+  padding-bottom: 10px;;
   padding-top: 5px;
-
+margin-top: 100px;
 }
 
 .table1 {
@@ -142,33 +168,42 @@ margin: 0 auto;
   padding: 20px;
 }
 
-.myButton {
-  box-shadow:inset 0 1px 0 0 #bbdaf7;
-	background:linear-gradient(to bottom, #11999e 5%, #378de5 100%);
-	background-color:#11999e;
-	border-radius:6px;
-	border:1px solid #84bbf3;
+.support1{
+
+height: 10%;
+width: 10%;
+}
+
+
+.shoplogo {
+  width: 20%;
+  height: 20%;
+  float: center;
+  margin-bottom: -200px;
+}
+
+
+.button1 {
+	box-shadow: 0 1px 0 0 #da2d2d;
+	background:linear-gradient(to bottom, #9d0b0b 5%, #da2d2d 100%);
+	background-color:#9d0b0b;
+	border-radius:8px;
+	border:1px solid #ff0000;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	font-size:15px;
+	font-size:20px;
 	font-weight:bold;
-	padding:10px 30px;
+	padding:6px 24px;
 	text-decoration:none;
-	text-shadow:0 1px 0 #528ecc;
-margin: 50px 0;
+	text-shadow:0 -1px 0 #000000;
 }
-
-.myButton:hover {
-	background:linear-gradient(to bottom, #378de5 5%, #11999e 100%);
-	background-color:#378de5;
+.button1:hover {
+	background:linear-gradient(to bottom, #da2d2d 5%, #9d0b0b 100%);
+	background-color:#da2d2d;
 }
-.myButton:active {
+.button1:active {
 	position:relative;
 	top:1px;
-}
-
-.bottomtxt {
-text-align: center;
 }
